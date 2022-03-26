@@ -31,3 +31,13 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .content .info{
+        height: auto;
+    }
+    .joke-container{
+        margin-top: 40px;
+    }
+}
+    
