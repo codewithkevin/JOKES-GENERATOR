@@ -24,3 +24,21 @@ body {
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+.info .inner-info h1:before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: dodgerblue;
+    display: inline-block;
+    align-items: center;
+    justify-self: center;
+}
+/* .info .inner-info h1:after {
+    content: "";
+    width: 100px;
+    height: 0px;
+    background-color: dodgerblue;
+    display: inline-block;
+    margin-right: 0px;
+} */
