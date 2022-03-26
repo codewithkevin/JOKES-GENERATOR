@@ -26,5 +26,8 @@ body {
 }
 
 .joke-container {
-    margin-top: 20px;
+    margin-top: 220px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
