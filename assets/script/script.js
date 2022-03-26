@@ -1,15 +1,16 @@
 function displayJoke(){    
     
+    const par = document.getElementById('display-content');
     const baseURL = "https://v2.jokeapi.dev/joke/";
     const categories = ["Programming", "Misc", "Pun", "Spooky", "Christmas"];
     const params = [
         "blacklistFlags=nsfw,religious,racist",
         "idRange=0-100"
     ];
-    const category = document.getElementById("category").value;
+    const url = baseURL + categories[Math.floor(Math.random() * categories.length)] + "?" + params[Math.floor(Math.random() * params.length)];
 
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", baseURL + categories.join(",") + "?" + params.join("&"));
+    xhr.open("GET", url, true);
 
 
 
@@ -21,13 +22,13 @@ function displayJoke(){
             if(randomJoke.type == "single")
             {
                 // If type == "single", the joke only has the "joke" property
-                alert(randomJoke.joke);
+                par.innerHTML = randomJoke.joke;
             }
             else
             {
                 // If type == "single", the joke only has the "joke" property
-                alert(randomJoke.setup);
-                alert(randomJoke.delivery);
+                par.innerHTML = randomJoke.setup + "<br>" + randomJoke.delivery;
+                par.innerHTML += randomJoke.delivery;
             }
         }
         else if(xhr.readyState == 4)
