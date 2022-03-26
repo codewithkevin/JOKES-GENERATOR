@@ -32,6 +32,15 @@ body {
     text-align: center;
 }
 
+#display-content{
+    margin-top:50px;
+    
+}
+
+.btn {
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 768px) {
     .content .info{
         height: auto;
