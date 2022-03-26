@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.content .info{
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.info .inner-info {
+    padding: 30px;
+    margin-top: 40%;
+}
+
+.info .inner-info h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
