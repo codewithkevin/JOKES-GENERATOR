@@ -36,8 +36,12 @@ body {
     .content .info{
         height: auto;
     }
-    .joke-container{
+    .info .inner-info {
         margin-top: 40px;
+    }
+
+    .joke-container{
+        margin-top: 50px;
     }
 }
     
