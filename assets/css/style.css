@@ -25,7 +25,7 @@ body {
     margin-bottom: 20px;
 }
 
-.info .inner-info h1:before {
+/* .info .inner-info h1:before {
     content: "";
     width: 100px;
     height: 2px;
@@ -33,7 +33,7 @@ body {
     display: inline-block;
     align-items: center;
     justify-self: center;
-}
+} */
 /* .info .inner-info h1:after {
     content: "";
     width: 100px;
