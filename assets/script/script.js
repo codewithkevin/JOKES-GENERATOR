@@ -40,5 +40,5 @@ function displayJoke(){
     xhr.send();
 }
 
-document.getElementById("myBtn").addEventListener("click", displayJoke);
+document.getElementById("myBtn").addEventListener("click", displayJoke).currentTarget.disabled = true;
 
