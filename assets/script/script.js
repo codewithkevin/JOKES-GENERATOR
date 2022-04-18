@@ -29,7 +29,7 @@ function displayJoke(){
             {
                 // If type == "single", the joke only has the "joke" property
                 par.innerHTML = randomJoke.setup + "<br>" + randomJoke.delivery;
-                par.innerHTML += randomJoke.delivery;
+                // par.innerHTML += randomJoke.delivery;
             }
         }
         else if(xhr.readyState == 4)
