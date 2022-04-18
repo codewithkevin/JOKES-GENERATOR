@@ -2,7 +2,7 @@ function displayJoke(){
     
     const par = document.getElementById('display-content');
     const baseURL = "https://v2.jokeapi.dev/joke/";
-    const categories = ["Programming", "Misc", "Pun", "Spooky", "Christmas"];
+    const categories = ["Programming", "Misc", "Pun"];
     const params = [
         "blacklistFlags=nsfw,religious,racist",
         "idRange=0-100"
