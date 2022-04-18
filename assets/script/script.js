@@ -8,6 +8,7 @@ function displayJoke(){
         "idRange=0-100"
     ];
     const url = baseURL + categories[Math.floor(Math.random() * categories.length)] + "?" + params[Math.floor(Math.random() * params.length)];
+    
 
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
